@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+{% for project in site.projects %}
+{{ project.calendar_url }}
+{% endfor %}

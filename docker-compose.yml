@@ -1,18 +1,3 @@
-web:
-  image: jekyll/minimal:latest
-  command: jekyll serve --trace
-  volumes:
-    - ~/dev/y.web:/srv/jekyll
-  ports:
-    - 4000:4000
-
-
-immagit:
-  image: jekyll/minimal:latest
-  command: jekyll serve -P 4001
-  volumes:
-    - ~/Projects/immaj.it:/srv/jekyll
-  ports:
-    - 4001:4001
-
-
+public_ui:
+admin_ui:
+backups:

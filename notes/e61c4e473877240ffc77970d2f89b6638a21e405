@@ -1,0 +1,13 @@
+---
+tags: documentation authentication terraform git jekyll make
+---
+
+Tasks:
+
+Update README with use case for docker-compose
+-> Run applications locally with docker-compose. volumes, ports, etc
+Gemfile.lock gitignore
+.terraform/modules subtrees
+Org/Team Authentication
+Public UI
+

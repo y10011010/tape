@@ -1,0 +1,6 @@
+---
+tags: git docker terraform jekyll
+---
+
+Run applications locally with docker-compose
+Update README with restricted use cases for docker-compose, volumes, ports, etc.

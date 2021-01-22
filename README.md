@@ -52,3 +52,6 @@ files - which may be named `docker-compose.<use-case>.yml` or
 stages of development (staging, production). Although, it is worth noting that
 other tools are employed (e.g., terraform, kubernetes) to address use cases
 beyond simply running applications or services.
+
+The resticted set of features employed from docker-compose should be limited to
+running apps/volumes which are in turn managed via terraform and packer.

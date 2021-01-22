@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"consul","Source":"github.com/arthur-stace/tape","Dir":".terraform/modules/consul"},{"Key":"","Source":"","Dir":"."}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"admin_ui","Source":"github.com/arthur-stace/radical","Dir":".terraform/modules/admin_ui"},{"Key":"database","Source":"github.com/arthur-stace/tape","Dir":".terraform/modules/database"},{"Key":"public_ui","Source":"github.com/arthur-stace/backpack","Dir":".terraform/modules/public_ui"}]}

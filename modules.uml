@@ -1,0 +1,7 @@
+@startuml
+.terraform
+modules
+admin_ui
+database
+public_ui
+@enduml

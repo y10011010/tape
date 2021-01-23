@@ -1,9 +1,0 @@
----
-tags: documentation security make git
----
-
-Update README with restricted use cases for docker-compose, volumes, ports, etc.
-Gemfile.lock gitignore
-make subtrees
-authentication
-public ui

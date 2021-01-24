@@ -1,3 +1,20 @@
 public_ui:
-admin_ui:
-backups:
+  image: jekyll/jekyll:minimal
+  command: jekyll build
+  volumes:
+    - ${WORKDIR_PUBLIC_UI}:/srv/jekyll
+  ports:
+    - 4000:4000
+
+# admin_ui:
+#   image: calcurse/calcurse
+#   volumes:
+#     - ${PWD}:/data
+#
+# backups:
+#     image: restic/rest-server
+#     ports:
+#       - 8000:8000
+#     volumes:
+#       - ${WORKDIR_BACKUPS}:/data
+#     
